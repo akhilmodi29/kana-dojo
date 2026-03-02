@@ -267,7 +267,7 @@
     "jlpt": "N4",
     "id": 30,
     "issued": false,
-    "completed": false
+    "completed": true
   },
   {
     "japanese": "来月から新しいプロジェクトに参加することになりました。",
@@ -329,7 +329,7 @@
     "english": "The train was delayed, so I was a little late.",
     "jlpt": "N4",
     "id": 37,
-    "issued": false,
+    "issued": true,
     "completed": false
   },
   {
