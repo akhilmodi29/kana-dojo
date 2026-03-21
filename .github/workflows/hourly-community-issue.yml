@@ -1326,6 +1326,9 @@ jobs:
             const secondaryCount = 2 + Math.floor(Math.random() * 2); // 2 or 3
             const selectedSecondary = pickRandomLabels(templates.labels.secondaryIssuePool, secondaryCount);
             const labels = [...templates.labels.coreIssue, ...selectedSecondary];
+            if (selectedType === 'wallpaperUrl' || selectedType === 'communityNote') {
+              labels.push('documentation');
+            }
 
             // Prepend body preamble (§6.2.1–6.2.4: H1 header, badges, callout, metadata)
             const preambleLabelMap = {
